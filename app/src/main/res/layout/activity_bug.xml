@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chatgpt4.FactorialActivity"
+    android:theme="@style/Theme.AppCompat">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:textColor="@android:color/black"
+            android:id="@+id/editTextNumber"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <Button
+            android:textColor="@android:color/white"
+            android:id="@+id/buttonCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/textViewResult"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
